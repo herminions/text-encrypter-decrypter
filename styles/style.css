@@ -169,11 +169,13 @@ body{
 @media (max-width: 650px){
 
     .header{
-        padding-left: 35%; 
+        padding-left: 20%; 
         padding-bottom: 3%;
         padding-top: 3%;
     }
-
+    .title{
+        font-size: small;
+    }
     .header_menu_button{
         margin-right: 5%;
         font-size: large;
@@ -184,27 +186,29 @@ body{
     }
 
     .input_area{
-        width:30.25rem;
+        width:15.25rem;
+        height: 10.25rem;
     }
 
     .main_output_display{
-        width:30.5rem;
+        width:15.5rem;
+        height: 10.5rem;
         align-items: center;
     }
 
     .main_button_encrypt{
         height: 2rem;
-        width:31.1rem;
+        width:16.1rem;
     }
 
     .main_button_decrypt{
         height: 2rem;
-        width:31.1rem;
+        width:16.1rem;
     }
 
     .main_copy_button{
         height: 2rem;
-        width:31.1rem;
+        width:16.1rem;
     }
 }
     
