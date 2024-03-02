@@ -46,13 +46,6 @@ function encrypt(){
     //Displays the Encrypted text
     showText("text_output", encryptedText)
     showText("default_paragraph", "")
-
-    //Removes image after encrypting
-    document.getElementById("image").src=""
-
-    //removes alt of the image
-    document.getElementById("image").alt=""
-
 }
 
 //Function to encrypt the input

@@ -11,15 +11,15 @@
         <nav class="header_menu">
             <!--Navigation menu-->
             <a class="header_menu_button" href="index.html">
-                Encrypt
+                Encrypter
             </a>
             <a class="header_menu_button" href="decrypt.html">
-                Decrypt
+                Decrypter
             </a>
         </nav>
     </header>
-    <main>
-        <div class="title_encrypt">
+    <main class="main">
+        <div class="title">
             <h1>Encrypt your text</h1>
         </div>
         <section class="main_input_output">
@@ -27,9 +27,9 @@
                 <!--Input Area-->
                 <textarea class="input_area" name="user_input" id="input" onclick= eraseDefaultText() onblur= returnDefaultText() cols="30" rows="10">Type here</textarea>
                 <!--Encrypt Button-->
-                <span class="main_button">
+                <div class="main_button">
                     <button onclick= encrypt() id="encrypt_button" class="main_button_encrypt">Encrypt</button>
-                </span>
+                </div>
             </section>
             <section class="main_output">
                 <!--Output area-->
@@ -48,8 +48,10 @@
             </section>
         </section>
     </main>
-    <footer>
-
+    <footer class="footer">
+        <h2 class="footer_text">
+            Developed by Herminions
+        </h2>
     </footer>
     
 <script src="script.js"></script>

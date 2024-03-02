@@ -11,25 +11,26 @@
         <nav class="header_menu">
             <!--Navigation menu-->
             <a class="header_menu_button" href="index.html">
-                Encrypt
+                Encrypter
             </a>
             <a class="header_menu_button" href="decrypt.html">
-                Decrypt
+                Decrypter
             </a>
         </nav>
     </header>
-    <main>
-        <div class="title_decrypt">
+    <main class="main">
+        <div class="title">
             <h1>Decrypt your text</h1>
         </div>
         <section class="main_input_output">
             <section class="main_input">
                 <!--Input Area-->
-                <textarea class="input_area" name="user_input" id="input" onclick= eraseDefaultText() onblur= returnDefaultText() cols="30" rows="10">Type here</textarea>
+                <textarea class="input_area" name="user_input" id="input" onclick= eraseDefaultText() 
+                onblur= returnDefaultText() cols="30" rows="10">Type here</textarea>
                 <!--Decrypt Button-->
-                <span class="main_button">
+                <div class="main_button">
                     <button onclick= decrypt() id="decrypt_button" class="main_button_decrypt">Decrypt</button>
-                </span>
+                </div>
             </section>
             <section class="main_output">
                 <!--Output area-->
