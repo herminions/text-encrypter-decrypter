@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decrypter</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body> 
+    <header class="header">
+        <nav class="header_menu">
+            <!--Navigation menu-->
+            <a class="header_menu_button" href="index.html">
+                Encrypt
+            </a>
+            <a class="header_menu_button" href="decrypt.html">
+                Decrypt
+            </a>
+        </nav>
+    </header>
+    <main>
+        <div class="title_decrypt">
+            <h1>Decrypt your text</h1>
+        </div>
+        <section class="main_input_output">
+            <section class="main_input">
+                <!--Input Area-->
+                <textarea class="input_area" name="user_input" id="input" onclick= eraseDefaultText() onblur= returnDefaultText() cols="30" rows="10">Type here</textarea>
+                <!--Decrypt Button-->
+                <span class="main_button">
+                    <button onclick= decrypt() id="decrypt_button" class="main_button_decrypt">Decrypt</button>
+                </span>
+            </section>
+            <section class="main_output">
+                <!--Output area-->
+                <div class="main_output_display">
+                <!--Area where the decrypted text will be displayed-->
+                <h2 id="text_output" class="main_output_text">
+                    No text detected
+                </h2>
+                <p id="default_paragraph">
+                    Please, insert the text you want to encrypt.
+                </p>
+            </div>
+            </div>
+            <div class="output_button">
+                <button onclick="copyEncryptedText()" id="copy_button" class="main_copy_button">
+                    Copy
+                </button>
+            </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    
+<script src="script.js"></script>
+</body>
+</html>

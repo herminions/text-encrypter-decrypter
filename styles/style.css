@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+:root{
+    --main-font: "Kode Mono";
+    --main-color: #0F0F0F;
+    --secondary-color: #008170;
+    --terciary-color: #F0F3FF
+
+}
+
+body{    
+    background-color:var(--main-color) ;
+    margin: 0;
+}
+
+.header{
+    background-color: #005B41;
+    padding: 1% 0% 1% 10%;
+    vertical-align: middle;
+}
+
+.header_menu{
+    display: flex;
+    gap: 1%; 
+    font-weight: bold;
+    font-family: var(--main-font);
+     
+}
+
+.header_menu_button{
+    text-decoration: none;
+    color: var(--terciary-color);
+    justify-content: space-between;
+    
+}
+
+.header_menu_button:hover{
+    color: var(--main-color);
+}
+
+.title_encrypt{
+    padding-top: 5%;
+    text-align: center;
+    color: var(--terciary-color);
+    font-family: var(--main-font);
+}
+
+.title_decrypt{
+    padding-top: 5%;
+    text-align: center;
+    color: var(--terciary-color);
+    font-family: var(--main-font);
+}
+
+.main_input_output{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+
+}
+
+.main_input{
+    align-items: center;
+
+
+}
+.input_area{
+    resize: none;
+    border: 5px solid var(--secondary-color);
+    width: 35rem;
+    height: 15rem;
+    background-color:var(--main-color);
+    color: var(--terciary-color);
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: larger;
+    text-align: center;
+    text-align-last: center;
+    padding-bottom: 0;
+    margin-bottom: 0%;
+    outline: none;
+}
+
+.main_button_encrypt{
+    margin-top: 0%;
+    border: 2px solid var(--secondary-color); 
+    background: var(--secondary-color);
+    color: var(--terciary-color);
+    width: 35.85rem;
+    height: 10%;
+    font-family: var(--main-font);
+    font-weight: bolder;
+}
+
+.main_button_encrypt:hover{
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    cursor:pointer;
+}
+
+.main_button_decrypt{
+    margin-top: 0;
+    border: 2px solid var(--secondary-color); 
+    background: var(--secondary-color);
+    color: var(--terciary-color);
+    width: 35.85rem;
+    height: 10%;
+    font-family: var(--main-font);
+    font-weight: bolder;
+}
+
+.main_button_decrypt:hover{
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    cursor:pointer;
+}
+
+
+.main_output_display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid var(--secondary-color);
+    background-color:var(--main-color);
+    color: var(--terciary-color);
+    font-family: var(--main-font);
+    text-align: center;
+    width: 35rem;
+    height: 15rem;
+}
+
+.main_copy_button{
+    margin-top: 0%;
+    border: 2px solid var(--secondary-color); 
+    background: var(--secondary-color);
+    color: var(--terciary-color);
+    width: 35.58rem;
+    height: 15%;
+    font-family: var(--main-font);
+    font-weight: bolder;
+}
+
+.main_copy_button:hover{
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    cursor:pointer;
+}
